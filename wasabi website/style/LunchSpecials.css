@@ -1,0 +1,48 @@
+.lunch-img img {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  filter: blur(0.5px);
+}
+
+.lunch-img {
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+  margin-bottom: 52vh;
+}
+
+.lunch-img h1 {
+  font-family: 'Poppins', sans-serif !important;
+  color: rgba(88, 52, 52, 0.9);
+  font-weight: 600;
+  display: grid;
+  place-items: center;
+  padding-bottom: 3rem;
+}
+
+.lunch-img .info-container {
+  padding-top: 5vh;
+  width: 100vw;
+  position: absolute;
+  display: grid;
+  place-items: center;
+}
+
+.lunch-img .btn {
+  z-index: 10;
+}
+
+.lunch-img .text-container {
+  padding-bottom: 5vw;
+  width: 50vw;
+  z-index: 10;
+  margin-right: 30vw;
+}
+
+.lunch-img .lunch-text {
+  font-family: 'Poppins', sans-serif !important;
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 4px 4px 8px rgb(0 0 0 / 80%);
+}

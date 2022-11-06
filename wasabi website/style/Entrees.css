@@ -1,0 +1,84 @@
+.entree-container img {
+  width: auto;
+  height: 42vh;
+}
+
+.entree-container {
+  padding-left: 10px;
+  overflow-x: hidden;
+  /*padding-right: 8vw;*/
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.entree-container .btn,
+.entree-container h2 {
+  position: absolute;
+}
+
+.entree-container h2 {
+  line-height: 60px;
+  font-size: 40px;
+  text-shadow: 4px 4px 8px rgb(0 0 0 / 50%);
+  color: #fff;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600;
+}
+
+.entree-container .image1,
+.entree-container .image2 {
+  padding: 12px;
+}
+
+.entree-container .image1 .btn {
+  margin-top: 30vh;
+  margin-left: 26vh;
+}
+
+.entree-container .image1 h2 {
+  margin-left: 40vh;
+  margin-top: 3vh;
+  font-size: 64px;
+}
+
+.entree-container .image2 .btn {
+  margin-top: 32vh;
+  margin-left: 23vh;
+}
+
+.entree-container .image2 h2 {
+  margin-top: 3vh;
+  margin-left: 7vh;
+  font-size: 55px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .entree-container img {
+    object-fit: cover;
+    width: 42vh;
+    height: 42vh;
+  }
+
+  .entree-container {
+    padding-right: 0;
+  }
+
+  .entree-container .image2 h2 {
+    margin-top: 1vh;
+    margin-left: 1vh;
+  }
+
+  .entree-container .image2 .btn {
+    margin-left: 18vh;
+  }
+
+  .entree-container .image1 h2 {
+    margin-left: 6vh;
+  }
+
+  .entree-container .image1 .btn {
+    margin-left: 3vh;
+    margin-top: 31vh;
+  }
+}

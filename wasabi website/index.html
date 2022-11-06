@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style/Navbar.css" />
+    <link rel="stylesheet" href="style/Home.css" />
+    <link rel="stylesheet" href="style/SoupsSalads.css" />
+    <link rel="stylesheet" href="style/LunchSpecials.css" />
+    <link rel="stylesheet" href="style/Entrees.css" />
+    <link rel="stylesheet" href="style/Sushi.css" />
+    <link rel="stylesheet" href="style/Footer.css" />
+    <title>Wasabi</title>
+</head>
+<body>
+
+<!--Creating Navbar Here-->
+<header>
+    <div class='navbar links'>
+        <div class='left-side'>
+            <a href="index.html">
+                <img src="assets/logo.svg" alt="">
+            </a>
+
+        </div>
+        <div class='right-side links'>
+
+            <div class="dropdown">
+                <button class="dropbtn">MENU</button>
+                <div class="hidden-items">
+                    <a href="Menu.html">Soups/Salads</a>
+                    <a href="Menu.html">Appetizers</a>
+                    <a href="Menu.html">Entrees</a>
+                    <a href="Menu.html">Beverages</a>
+                    <a href="Menu.html">Sushi</a>
+                    <a href="Menu.html">Sashimi</a>
+                </div>
+            </div>
+            <a href="Location.html">Location</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="Reservation.html">Reservations</a>
+        </div>
+
+    </div>
+    <div class='navbar-background'></div>
+
+</header>
+
+<!--Create Carousel Here-->
+<div class="back-img">
+    <img id="slideshow" src="assets/sushi1.jpg" width="400" height="300">
+</div>
+
+    <script>
+
+        var images = ["assets/sushi1.jpg", "assets/sushi2.jpg", "assets/sushi3.jpg", "assets/sushi4.jpg"];
+        var currentImage = 0;
+
+        function changeImage() {
+            currentImage++;
+            if (currentImage == images.length) {
+                currentImage = 0;
+            }
+            document.getElementById("slideshow").src = images[currentImage];
+        }
+
+        setInterval(changeImage, 5000);
+
+    </script>
+<!--Create Welcome Text Here-->
+<div class='greeting-text'>
+
+    <h1 id="title">
+        Japanese
+        <br />
+        Sushi & Grill
+    </h1>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(function(){
+            $('#title').hover(function(){
+                $(this).css('transform', 'rotateX(180deg)');
+            }, function(){
+                $(this).css('transform', 'rotateX(0deg)');
+            });
+        });
+    </script>
+
+    <button class='btn'>
+        <a href="Location.html">Location / Hours</a>
+    </button>
+</div>
+<!--Create Lunch Specials Here-->
+<div class='lunch-img'>
+    <h1>Lunch Special</h1>
+    <div class='info-container'>
+        <div class='text-container'>
+            <span class='lunch-text'>
+                Wasabi is a beautiful, clean, and family friendly restaurant located on Ryan Street Lake Charles.<br>
+                All ingredients in our sushi are fresh wild caught fish from the Pacific Ocean. <br>
+                Each roll is professionally made by our world-class chefs.
+            </span>
+        </div>
+        <button class='btn'>
+            <a href="/menu">Lunch Special Menu</a>
+        </button>
+    </div>
+    <img src='assets/lunch-special.jpg' alt='lunch special' />
+</div>
+<!--Create Soup & Salads & Appetizers Here-->
+<div class="soup-title">
+    <h1>Other Categories</h1>
+</div>
+<div class="soup-container">
+    <div class="image1">
+
+        <h2>Soups&<br /> Salads</h2>
+        <button class='btn'>
+            <a href="Menu.html">Menu</a>
+        </button>
+    </div>
+
+    <img src="assets/soups-salads.jpg" alt="soup and salad">
+    <div class="image2">
+        <h2>Appetizers</h2>
+        <button class='btn'>
+            <a href="Menu.html">Appetizer Menu</a>
+        </button>
+    </div>
+
+    <img class="long-image" src="assets/appetizers.jpg" alt="soup and salad">
+</div>
+
+<!--Create Entree & Beverages Here-->
+<div class="entree-container">
+    <div class="image1">
+        <h2>Entrees</h2>
+        <button class="btn">
+            <a href="Menu.html">Entree Menu</a>
+        </button>
+        <img class="long-image" src="assets/entrees.jpg" alt="entrees">
+    </div>
+
+    <div class="image2">
+        <h2>Beverages</h2>
+        <button class="btn">
+            <a href="Menu.html">Drink Menu</a>
+        </button>
+        <img class="long-image" src="assets/drinks.jpg" alt="entrees">
+    </div>
+</div>
+
+<!--Create Sushi & Sashimi Here-->
+<div class="sushi-container">
+    <div class="image1">
+        <h2>Sushi</h2>
+        <button class="btn">
+            <a href="Menu.html">Sushi Menu</a>
+        </button>
+        <img src="assets/sushi.jpg" alt="">
+    </div>
+
+    <div class="image2">
+        <h2>Sashimi</h2>
+        <button class="btn">
+            <a href="Menu.html">Sashimi Menu</a>
+        </button>
+        <img src="assets/sashimi.jpg" alt="">
+    </div>
+
+</div>
+<!--Add Footer Here-->
+<div class="footer-container">
+
+    <div class="flex-footer">
+        <div class="footer-logo">
+            <img src="assets/logo.svg" alt="logo">
+        </div>
+
+        <div class="footer-contact">
+            <div>
+                <h2>Contact Us</h2>
+                <h4>Address:</h4>
+
+                <a href='https://www.google.com/maps/place/Wasabi+Japanese+Sushi+%26+Grill/@30.1818209,-93.2247643,14.49z/data=!4m5!3m4!1s0x0:0x4ad24a5f948251b2!8m2!3d30.187459!4d-93.2182302'
+                   target='_blank'> <div class="text">3905 Ryan St, Lake Charles, LA 70605</div> </a>
+                <h4>Phone:</h4>
+
+                <a href='tel:+1-337-477-1755'>
+                    <div class='text'>
+
+                        <span>
+                            <img  style="height: 20px; width: 20px; position: absolute;" src="assets/phone.svg" alt="phone">
+                        </span>
+
+                        <span style="padding-left: 25px;">
+                            (337) 477-1755
+                        </span>
+
+                    </div>
+                </a>
+                <h4>Socials:</h4>
+                <a href='https://www.facebook.com/Wasabi-Japanese-Sushi-Grill-189573701210648/'
+                   target='_blank' >
+                    <div class='icon' >
+                        <img style="height: 30px; width: 30px;" src="assets/facebook.svg" alt="facebook">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <h2>Links</h2>
+            <button class="btn">
+                <a href="index.html">Home</a>
+            </button>
+
+            <button class="btn">
+                <a href="Menu.html">Menu</a>
+            </button>
+
+            <button class="btn">
+                <a href="Location.html">Location</a>
+            </button>
+
+            <button class="btn">
+                <a href="AboutUs.html">About Us</a>
+            </button>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+html
+{
+    background-image: url(bamboo-background.svg);
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+}
+
+.spacer {
+    padding: 50px;
+}
+
+div.imgContainer
+{
+    float:left;
+    margin-bottom:50px;
+}
+.info img
+{
+    border-radius: 360em;
+    width:80px;
+    height:80px;
+
+}
+.info
+{
+    padding: 40px;
+    background-color: rgb(223, 228, 200,0.8);
+    box-shadow: black 10px 0 10px , black -10px 0px 10px;
+    overflow: hidden;
+    width:60%;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius:5em;
+}
+.info .wordDiv
+{
+    font-family: 'Poppins', sans-serif !important;
+    padding-left:50px;
+}
+.info h1
+{
+    padding-left:50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.wordDiv p
+{
+    padding-left:25px;
+}

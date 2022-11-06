@@ -1,0 +1,87 @@
+.menu-container {
+  padding-top: 120px;
+  /* position: absolute; */
+  justify-content: center;
+  display: grid;
+  place-items: center;
+  font-family: poppins;
+  opacity: 100%;
+}
+
+.background {
+  content: '';
+  background-color: rgb(112, 140, 52);
+  background-image: url('../assets/bamboo-background.svg');
+  background-size: 100%;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  opacity: 100%;
+  z-index: -10;
+  filter: blur(0.75px);
+}
+
+.item-container {
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.4)
+  );
+  border-radius: 30px;
+  backdrop-filter: blur(15px);
+  box-shadow: 10px 0px 30px rgba(0, 0, 0, 1);
+}
+
+.menu-name {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.menu-key div {
+  padding-top: 10px;
+}
+
+.menu-key img {
+  margin-left: 10px;
+}
+
+.menu-key {
+  padding-bottom: 50px;
+}
+
+.item {
+  /* background-color: red; */
+  border-top: solid;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 350px;
+  height: auto;
+  margin-right: 0 !important;
+}
+
+.menu-container img {
+  width: 20px;
+  height: 20px;
+}
+
+.item .item-name {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.item .item-desc {
+  font-family: poppins;
+  font-size: 14px;
+}
+
+.item .item-piece {
+  font-family: 'Caveat Brush', cursive;
+}
+
+.item .item-price {
+  font-family: 'Caveat Brush', cursive;
+}

@@ -1,0 +1,88 @@
+.soup-title h1 {
+  font-family: 'Poppins', sans-serif !important;
+  color: rgba(88, 52, 52, 0.9);
+  font-weight: 600;
+  display: grid;
+  place-items: center;
+  padding-bottom: 0.5rem;
+}
+
+.soup-container img {
+  width: auto;
+  height: 42vh;
+}
+
+.soup-container {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  overflow-x: hidden;
+  padding-bottom: 12px;
+  /*padding-right: 8vw;*/
+}
+
+.soup-container .image1,
+.soup-container .image2 {
+  padding: 12px;
+  margin-bottom: 25px;
+}
+
+.soup-container .btn {
+  position: absolute;
+}
+
+.soup-container h2 {
+  position: absolute;
+}
+
+.soup-container .image1 .btn {
+  margin-top: 30vh;
+  margin-left: 20vh;
+}
+.soup-container .image2 .btn {
+  margin-top: 20vh;
+  margin-left: 7vh;
+}
+
+.soup-container .image1 h2 {
+  margin-top: 7vh;
+  margin-left: 2.5vh;
+}
+.soup-container .image2 h2 {
+  margin-top: 7vh;
+  margin-left: 7vh;
+  font-size: 55px;
+}
+
+.soup-container h2 {
+  line-height: 60px;
+  font-size: 40px;
+  text-shadow: 4px 4px 8px rgb(0 0 0 / 50%);
+  color: #fff;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1200px) {
+  .soup-container .long-image {
+    object-fit: cover;
+    width: 42vh;
+    height: 42vh;
+  }
+
+  .soup-container {
+    padding-right: 0;
+  }
+
+  .soup-container .image2 h2 {
+    font-size: 32px;
+    margin-top: 1vh;
+    margin-left: 1vh;
+  }
+
+  .soup-container .image2 .btn {
+    margin-top: 9vh;
+    margin-left: 1vh;
+  }
+}
+

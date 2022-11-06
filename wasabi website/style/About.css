@@ -1,0 +1,76 @@
+.card-container {
+  padding-top: 20vh;
+  display: grid;
+  place-items: center;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.about-container {
+  height: auto;
+  width: 60%;
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.4)
+  );
+  border-radius: 30px;
+  backdrop-filter: blur(15px);
+  box-shadow: 10px 0px 30px rgba(0, 0, 0, 1);
+  margin-bottom: 10vh;
+}
+
+
+
+.about-container .image-container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 20px;
+}
+
+.about-container .image-container h4 {
+  font-size: 26px;
+  font-weight: 600;
+  position: absolute;
+  padding-left: 120px;
+  padding-top: 60px;
+}
+
+.about-container p {
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .about-container {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .about-container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .about-container {
+    width: 80%;
+  }
+
+  .about-container p {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-container {
+    width: 100%;
+  }
+
+  .about-container p {
+    padding: 20px;
+  }
+}

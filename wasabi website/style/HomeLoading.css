@@ -1,0 +1,31 @@
+.loading-center {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(191, 95, 82);
+  display: grid;
+  place-items: center;
+}
+
+.loading-center h1 {
+  font-size: 72px;
+  font-family: 'Poppins', sans-serif !important;
+  color: #fff;
+}
+
+.loading-spinner {
+  width: 10rem;
+  height: 10rem;
+  display: inline-block;
+  border: 6px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: 1.2s spin infinite ease-in-out;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

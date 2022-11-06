@@ -1,0 +1,85 @@
+html
+{
+    background-image: url(bamboo-background.svg);
+}
+
+.outerDiv div
+{
+    padding-top:10px;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+}
+
+.spacer {
+    padding: 50px;
+}
+
+.menuBody
+{
+    display:block;
+    padding-top:10px;
+    background-color: rgb(223, 228, 200,0.8);
+    background-size: 100%;
+    opacity: 100%;
+    height:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    overflow:hidden;
+    border-radius: 40px;
+    box-shadow: black 10px 0 10px , black -10px 0px 10px;
+}
+
+/*.menuBody {*/
+/*    box-shadow: black 10px 0 10px , black -10px 0px 10px;*/
+/*}*/
+
+img#descPic
+{
+    padding-top: 15px;
+}
+.picDiv ul
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    list-style: none;
+    width:100%;
+}
+img.menuPics
+{
+    width:25px;
+    height:25px;
+    float:left;
+}
+.menuTitle
+{
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+    width:100%;
+}
+div.menuItems ul
+{
+    position:static;
+    list-style:none;
+    float:left;
+}
+div.menuItems li
+{
+    width:33.3%;
+    font-size: 15px;
+    border-top:solid;
+    float:left;
+    overflow:hidden;
+}
+div.menuItems li h2
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+div.menuItems li p
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}

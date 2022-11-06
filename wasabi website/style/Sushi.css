@@ -1,0 +1,100 @@
+.sushi-container img {
+  width: auto;
+  height: 42vh;
+  margin-bottom: 25px;
+}
+
+.sushi-container {
+  padding-left: 10px;
+  overflow-x: hidden;
+  /*padding-right: 8vw;*/
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.sushi-container h2,
+.sushi-container .btn {
+  position: absolute;
+}
+
+.sushi-container h2 {
+  line-height: 60px;
+  font-size: 40px;
+  text-shadow: 4px 4px 8px rgb(0 0 0 / 50%);
+  color: #fff;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600;
+}
+
+.sushi-container .image1,
+.sushi-container .image2 {
+  padding: 12px;
+}
+
+.sushi-container .image2 img {
+  float: left;
+  /*padding-left: 76px;*/
+}
+
+.sushi-container .image1 .btn {
+  margin-top: 25vh;
+  margin-left: 5vh;
+}
+
+.sushi-container .image1 h2 {
+  font-size: 72px;
+  margin-top: 5vh;
+  margin-left: 5vw;
+}
+
+.sushi-container .image2 .btn {
+  margin-top: 25vh;
+  margin-left: 1vw;
+}
+
+.sushi-container .image2 h2 {
+  font-size: 58px;
+  margin-top: 5vh;
+  margin-left: 5vh;
+}
+
+@media only screen and (max-width: 1200px) {
+  .sushi-container img {
+    object-fit: cover;
+    width: 42vh;
+    height: 42vh;
+  }
+
+  .sushi-container {
+    padding-right: 0;
+  }
+
+  .sushi-container .image2 h2 {
+    margin-top: 1vh;
+    margin-left: 15px;
+    font-size: 55px;
+  }
+
+  .sushi-container .image2 .btn {
+    margin-left: 1vh;
+  }
+
+  .sushi-container .image2 button {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  .sushi-container .image2 img {
+    padding-left: 0;
+  }
+
+  .sushi-container .image1 h2 {
+    margin-left: 4vh;
+  }
+
+  .sushi-container .image1 .btn {
+    margin-left: 3vh;
+    margin-top: 28vh;
+  }
+}

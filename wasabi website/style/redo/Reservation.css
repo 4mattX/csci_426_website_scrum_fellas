@@ -1,0 +1,107 @@
+html
+{
+    background-image: url(bamboo-background.svg);
+}
+div.imgContainer
+{
+    float:left;
+    margin-bottom:50px;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.spacer {
+    padding: 50px;
+}
+
+.info img
+{
+    border-radius: 360em;
+    width:80px;
+    height:80px;
+
+}
+
+.text-input {
+    padding: 5px;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    background-color: rgba(167, 203, 203, 0.8) !important;
+    color: black;
+    border: 2px solid #000 !important;
+    border-radius: 10px !important;
+    outline: none !important;
+    transition: ease-in, 0.2s;
+    filter: invert(1);
+}
+
+.input-container {
+    padding: 5px;
+}
+
+.slider {
+    accent-color: greenyellow;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, .6);
+}
+
+.btn {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    background-color: rgba(88, 52, 52, 0.8) !important;
+    color: white !important;
+    border: 2px solid #fff !important;
+    border-radius: 10px !important;
+    cursor: pointer !important;
+    outline: none !important;
+    transition: ease-in, 0.2s;
+}
+
+.info
+{
+    padding: 30px;
+    background-color: rgb(223, 228, 200,0.8);
+    box-shadow: black 10px 0 10px , black -10px 0px 10px;
+    overflow: hidden;
+    width:60%;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius:5em;
+}
+.info .wordDiv
+{
+    padding-left:50px;
+    margin-bottom:100px;
+}
+.info h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    padding-left:50px;
+}
+.wordDiv p
+{
+    padding-left:25px;
+}
+
+datalist {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+input[type=range] {
+    width: 50%;
+}
