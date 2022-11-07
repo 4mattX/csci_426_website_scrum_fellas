@@ -1,0 +1,215 @@
+<!--Actual Menu will be loaded from database in phase 3-->
+<!--
+    CSCI 426 Project
+    Author: Matthew Foreman
+    Date: 11/6/2022
+-->
+<!DOCTYPE HTML>
+<html lang="en">
+    <!--Comments by: Collin Ardoin -->
+    <!--This is the connection to CSS files required for the layout of the page -->
+    <head>
+        <link rel="stylesheet" href="style/Navbar.css" />
+        <link rel="stylesheet" href="style/Footer.css" />
+        <link rel="stylesheet" href="style/redo/menuStyle.css"/>
+        <link rel="stylesheet" href="style/Home.css"/>
+        <title>Appetizers Menu</title>
+    </head>
+    <body>
+
+    <!--This is the creation of the header and the links inside it-->
+    <header>
+        <div class='navbar links'>
+            <div class='left-side'>
+                <a href="index.html">
+                    <img src="assets/logo.svg" alt="">
+                </a>
+
+            </div>
+            <div class='right-side links'>
+
+                <div class="dropdown">
+                    <button class="dropbtn">MENU</button>
+                    <div class="hidden-items">
+                        <a href="SaladMenu.html">Soups/Salads</a>
+                        <a href="Appetizers.html">Appetizers</a>
+                        <a href="Entree.html">Entrees</a>
+                        <a href="Beverages.html">Beverages</a>
+                        <a href="Sushi.html">Sushi</a>
+                        <a href="Sashimi.html">Sashimi</a>
+                    </div>
+                </div>
+                <a href="Location.html">Location</a>
+                <a href="AboutUs.html">About Us</a>
+                <a href="Reservation.html">Reservations</a>
+            </div>
+
+        </div>
+        <div class='navbar-background'></div>
+    </header>
+    <!-- Creates the space between the header and the body-->
+        <div class="spacer"></div>
+
+<!--This is the body of the appetizers page-->
+<div class = "outerDiv">
+    <!--This is the creation of the floating body of the appetizers page-->
+    <div class = "menuBody">
+        <!--This is where the image symbols and their captions are created-->
+        <div class = "picDiv">
+            <ul>
+                <li><img class = "menuPics" src = "assets/fish.svg"/><p>= Raw</p></li>
+                <li><img class = "menuPics" src = "assets/chili-pepper.svg"/><p>= Spicy</p></li>
+            </ul>
+        </div> 
+        <!--The title of the page-->
+        <div class="menuTitle"> <h1>Appetizers</h1></div>
+        <!--The menu items are in separate unordered list so they arrange correctly -->
+        <div class = menuItems>
+            <ul>
+                <li>
+                    <img class = "menuPics" id = "descPic" src = "assets/fish.svg"/>
+                    <h2>Beef Tataki</h2>
+                    <p>$7.95</p>
+                    <p>Sliced scared beef, with ponzu sauce, sesame seeds, masago, scallions.</p>
+                </li>
+                <li>
+                    <h2>Agedashi To Fu</h2>
+                    <p>$3.95</p>
+                    <p>Deep fried to-fou with tempura sauce.</p>
+                </li>
+                <li>
+                    <img class = "menuPics" id = "descPic" src = "assets/fish.svg"/>
+                    <h2>Black Pepper Tunna</h2>
+                    <img class = "menuPics" src = "assets/chili-pepper.svg"/>
+                    <h2>Tataki</h2>
+                    <p>$7.95</p>
+                    <p>Deep fried to-fou with tempura sauce.</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h2>Seafood Puff</h2>
+                    <p>$5.95</p>
+                    <p>Shrimp, crabmeat, cream cheese wrapped in wonton skins and gently fried with wasabi mayo.</p>
+                </li>
+                <li>
+                    <h2>Nawudo</h2>
+                    <p>$9.95</p>
+                    <p>Snow crab, kani, masago, sweet mayo, cooked shrimp and avocacdo rolled in a cucumber wrap.</p>
+                </li>
+                <li>
+                    <h2>Ika Fried</h2>
+                    <p>$5.95</p>
+                    <p>Breaded and gently fried calamari rings served with tonkatsu sauce.</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img class = "menuPics" id = "descPic" src = "assets/chili-pepper.svg"/>
+                    <h2>Spicy Chicken</h2>
+                    <p>$5.50</p>
+                    <p>Sliced boneless chicken dusted w/ seasoning, corn starch, and gently fried with spicy sauce.</p>
+                </li>
+                <li>
+                    <h2>Golden Mussels</h2>
+                    <p>$6.95</p>
+                    <p>Grilled shopped mussels with spicy Japanese mayo and massago.</p>
+                </li>
+                <li>
+                    <h2>Chicken Yakatori</h2>
+                    <p>$3.95</p>
+                    <p>Chicken skewers served with teriyaki sauce.</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h2>Sweet Treat</h2>
+                    <p>$5.95</p>
+                    <p>Cooked shrimp, kani, tamago(egg custard), avocado, and cucumber wrapped in special rice paper and topped w/ sweet mayo.</p>
+                </li>
+                <li>
+                    <h2>Soft Shell Crab</h2>
+                    <p>$5.95</p>
+                    <p>Gently fried soft shell crab served with ponzu sauce.</p>
+                </li>
+                <li>
+                    <h2>Crawfish Tempura</h2>
+                    <p>$4.95</p>
+                    <p>Crawfish battered fried, and served with special sauce.</p>
+                </li>
+            </ul>
+        </div>
+    </div>    
+</div>
+
+<!--Creates the space between the body and the footer-->
+<div class="spacer"></div>
+
+<!-- This is the creation of the footer-->
+<div class="footer-container">
+
+    <div class="flex-footer">
+        <div class="footer-logo">
+            <img src="assets/logo.svg" alt="logo">
+        </div>
+
+        <div class="footer-contact">
+            <div>
+                <h2>Contact Us</h2>
+                <h4>Address:</h4>
+
+                <a href='https://www.google.com/maps/place/Wasabi+Japanese+Sushi+%26+Grill/@30.1818209,-93.2247643,14.49z/data=!4m5!3m4!1s0x0:0x4ad24a5f948251b2!8m2!3d30.187459!4d-93.2182302'
+                   target='_blank'> <div class="text">3905 Ryan St, Lake Charles, LA 70605</div> </a>
+                <h4>Phone:</h4>
+
+                <a href='tel:+1-337-477-1755'>
+                    <div class='text'>
+
+                        <span>
+                            <img  style="height: 20px; width: 20px; position: absolute;" src="assets/phone.svg" alt="phone">
+                        </span>
+
+                        <span style="padding-left: 25px;">
+                            (337) 477-1755
+                        </span>
+
+                    </div>
+                </a>
+                <h4>Socials:</h4>
+                <a href='https://www.facebook.com/Wasabi-Japanese-Sushi-Grill-189573701210648/'
+                   target='_blank' >
+                    <div class='icon' >
+                        <img style="height: 30px; width: 30px;" src="assets/facebook.svg" alt="facebook">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="bamboo-background"></div>
+        <!--All of the footer links to the other pages-->
+        <div class="footer-links">
+            <h2>Links</h2>
+            <button class="btn">
+                <a href="index.html">Home</a>
+            </button>
+
+            <button class="btn">
+                <a href="SaladMenu.html">Menu</a>
+            </button>
+
+            <button class="btn">
+                <a href="Location.html">Location</a>
+            </button>
+
+            <button class="btn">
+                <a href="AboutUs.html">About Us</a>
+            </button>
+        </div>
+    </div>
+
+</div>
+
+
+        
+    </body>
+</html>

@@ -1,0 +1,90 @@
+/*Comments By:Collin Ardoin*/
+/*Setting the style for the entire document*/
+html
+{
+    background-image: url(bamboo-background.svg);
+}
+/*Setting the style for the outside body of the document*/
+.outerDiv div
+{
+    padding-top:10px;
+}
+/*Setting the style for the entire body of the document*/
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+}
+/*Setting the style for the spacers in between the header body and footer*/
+.spacer {
+    padding: 50px;
+}
+/*Setting the style for the floating body of the document */
+.menuBody
+{
+    display:block;
+    padding-top:10px;
+    background-color: rgb(223, 228, 200,0.8);
+    background-size: 100%;
+    opacity: 100%;
+    height:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    overflow:hidden;
+    border-radius: 40px;
+    box-shadow: black 10px 0 10px , black -10px 0px 10px;
+}
+/*Setting the style for for description images so they position correctly*/
+img#descPic
+{
+    padding-top: 15px;
+}
+/*Setting the style for the unordered list elements containing the symbols of the document */
+.picDiv ul
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    list-style: none;
+    width:100%;
+}
+/*Setting the style for the symbols of the document */
+img.menuPics
+{
+    width:25px;
+    height:25px;
+    float:left;
+}
+/*Setting the style for the title of the document */
+.menuTitle
+{
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+    width:100%;
+}
+/*Setting the style for the unordered list containing menu items*/
+div.menuItems ul
+{
+    position:static;
+    list-style:none;
+    float:left;
+}
+/*Setting the style for the list items */
+div.menuItems li
+{
+    width:33.3%;
+    font-size: 15px;
+    border-top:solid;
+    float:left;
+    overflow:hidden;
+}
+/*Setting the style for the secondary titles inside the menu items*/
+div.menuItems li h2
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Setting the style for the paragraph elements in the document*/
+div.menuItems li p
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

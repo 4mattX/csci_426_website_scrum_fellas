@@ -1,22 +1,25 @@
+/*Comments By:Collin Ardoin*/
+/*Setting the style for the entire document*/
 html
 {
     background-image: url(bamboo-background.svg);
 }
-
+/*Setting the style for the putside body of the document*/
 body {
     margin: 0 !important;
     padding: 0 !important;
     overflow-x: hidden !important;
 }
-
+/*Setting the style for the spacers in between the header body and footer*/
 .spacer {
     padding: 50px;
 }
-
+/*Setting the background for the document*/
 .background
 {
     overflow: hidden;
 }
+/*Setting the style for the floating body of the document */
 .map
 {
     margin-top: 10px;
@@ -29,6 +32,7 @@ body {
     border-radius: 20px;
     box-shadow: black 10px 0 10px , black -10px 0px 10px;
 }
+/*Setting the style for hours section of the docuement*/
 .hours
 {
     margin-top: 10px;
@@ -40,17 +44,20 @@ body {
     overflow:hidden;
     border-radius: 20px;
 }
+/*Setting the style of the h1 elements in the hours section*/
 .hours h1
 {
     font-size:25px;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
 }
+/*Setting the style of the ul elements in the hours section*/
 .hours ul
 {
     list-style:none;
     float:left;
 }
+/*Setting the style of the h2 elements in the hours section*/
 .hours h2
 {   
     font-family:'Courier New', Courier, monospace;
@@ -59,6 +66,7 @@ body {
     font-size: 25px;
     float:left;
 }
+/*Setting the style of the p elements in the hours section*/
 .hours p
 {
     font-family:'Courier New', Courier, monospace;

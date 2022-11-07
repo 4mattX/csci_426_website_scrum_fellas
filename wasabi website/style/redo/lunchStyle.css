@@ -1,0 +1,141 @@
+/*Comments By:Collin Ardoin*/
+/*Setting the style for the entire document*/
+html
+{
+    background-image: url(bamboo-background.svg);
+}
+/*Setting the style for the outside body of the document*/
+.outerDiv
+{
+    padding-top:50px;
+}
+/*Setting the style for the floating body of the document */
+div.menuBody
+{
+    display:block;
+    padding-top:50px;
+    background-size: 100%;
+    opacity: 100%;
+    height:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    overflow:hidden;
+}
+/*Setting the style for the lunch specials section*/
+div.lunch_specials
+{  
+    margin-left: auto;
+    margin-right:auto;
+    background-color: rgb(223, 228, 200,0.8);
+    margin-bottom:20px;
+    position:relative;
+    border-style: solid;
+    border-radius: 2em;
+    overflow: hidden;
+    box-shadow: black 10px 0 10px , black -10px 0px 10px;
+    width:fit-content;
+}
+/*Setting the style for the title of the lunch specials section*/
+div.lunch_specials h1
+{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Setting the style for the secondary titles of the lunch specials section*/
+div.lunch_specials h2
+{
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+}
+/*Setting the style for the descripitons in the lunch specials section*/
+p.desc
+{
+    font-size:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    font-style:italic;
+}
+/*Setting the style for the unordered list containing the items in the lunch specials section*/
+div.lunch_specials ul{
+    list-style: none;
+}
+/*Setting the style for the list items in the lunch special section*/
+div.lunch_specials ul li
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Customizing the way curry is displayed*/
+ul.nameList li.curry
+{
+    clear:left;
+}
+/*Setting the style for the list items inside the lunch specials section within the item list*/
+div.lunch_specials ul.itemList li
+{
+    text-align:center;
+    float:left;
+    margin-left:5px;
+    width:30%;
+}
+/*Setting the style for the hibachi specials section*/
+div.lunch_hibachi
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+    overflow: hidden;
+}
+/*Setting the style for the title of the hibachi specials section*/
+div.lunch_hibachi h1
+{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Setting the style for the unordered list containing the items in the hibachi section*/
+div.lunch_hibachi ul
+{
+    list-style: none;
+    float:left;
+}
+/*Setting the style for the list items in the hibachi section*/
+div.lunch_hibachi li{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-style:none;
+    margin-left:15px;
+    float:left;
+}
+/*Setting the style for the lunch rolls section*/
+div.lunch_rolls
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+    overflow: hidden;
+}
+/*Setting the style for the title of the lunch rolls section*/
+div.lunch_rolls h1
+{
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Setting the style for the unordered list containing the items in the lunch rolls section*/
+div.lunch_rolls ul
+{
+    float:left;
+    list-style: none;
+}
+/*Setting the style for the list items in the hibachi section*/
+div.lunch_rolls li
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-style:none;
+    margin-left:25px;
+    margin-bottom:10px;
+    float:left;
+}
+/*Customizing the way katsu is displayed*/
+ul.nameList li.katsu
+{
+    clear:both;
+}

@@ -1,0 +1,271 @@
+<!--Actual Menu will be loaded from database in phase 3-->
+<!--
+    CSCI 426 Project
+    Author: Matthew Foreman
+    Date: 11/6/2022
+-->
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <!--Comments by: Collin Ardoin -->
+        <!--This is the connection to CSS files required for the layout of the page -->
+        <link rel="stylesheet" href="style/Navbar.css" />
+        <link rel="stylesheet" href="style/Footer.css" />
+        <link rel="stylesheet" href="style/redo/lunchStyle.css"/>
+        <title>Soups and Salad Menu</title>
+    </head>
+    <body>
+    <!--This is the creation of the header and the links inside it-->
+        <header>
+            <div class='navbar links'>
+                <div class='left-side'>
+                    <a href="index.html">
+                        <img src="assets/logo.svg" alt="">
+                    </a>
+        
+                </div>
+                <div class='right-side links'>
+        
+                    <div class="dropdown">
+                        <button class="dropbtn">MENU</button>
+                        <div class="hidden-items">
+                            <a href="SaladMenu.html">Soups/Salads</a>
+                            <a href="Appetizers.html">Appetizers</a>
+                            <a href="Entree.html">Entrees</a>
+                            <a href="Beverages.html">Beverages</a>
+                            <a href="Sushi.html">Sushi</a>
+                            <a href="Sashimi.html">Sashimi</a>
+                        </div>
+                    </div>
+                    <a href="Location.html">Location</a>
+                    <a href="AboutUs.html">About Us</a>
+                    <a href="Reservation.html">Reservations</a>
+                </div>
+        
+            </div>
+            <div class='navbar-background'></div>
+        
+        </header>
+        <!-- Creates the space between the header and the body-->
+        <div class="spacer"></div>
+<!--This is the body of the lunch specials page-->
+<div class = "outerDiv">
+    <!--This is the creation of the floating body of the lunch specials page-->
+    <div class = "menuBody">
+        <!--Each section of the page is separated into different divs in order to arrange them correctly-->
+        <div class = "lunch_specials">
+            <h1>Lunch Special</h1>
+            <p class = "desc">Monday to Saturday: 11:00AM-2:30PM</p>
+            <p class = "desc">Included Soup or Salad, Steam Rice, or Fried Rice</p>
+            <ul class = "nameList">
+                <li class = "tempura">
+                    <h2>Tempura</h2>
+                    <p class = "desc">Lightly Battered and Deep Fried</p>
+                    <ul class = "itemList">
+                        <li>
+                            <u>Chicken</u>
+                            <p>$6.25</p>
+                        </li>
+                        <li>
+                            <u>Shrimp</u>
+                            <p>$6.95</p>
+                        </li>
+                        <li>
+                            <u>Salmon</u>
+                            <p>$6.95</p>
+                        </li>
+                        <li>
+                            <u>Scallops</u>
+                            <p>$7.25</p>
+                        </li>
+                        <li>
+                            <u>Crawfish</u>
+                            <p>$6.95</p>
+                        </li>
+                        <li>
+                            <u>Vegetable</u>
+                            <p>$6.25</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class = "terriyaki">
+                    <h2>Terriyaki</h2>
+                    <p class = "desc">Grilled with Terriyaki Sauce</p>
+                    <ul class = "itemList">
+                        <li>
+                            <u>Chicken</u>
+                            <p>$6.25</p>
+                        </li>
+                        <li>
+                            <u>Shrimp</u>
+                            <p>$6.95</p>
+                        </li>
+                        <li>
+                            <u>Salmon</u>
+                            <p>$6.95</p>
+                        </li>
+                        <li>
+                            <u>Beef</u>
+                            <p>$6.95</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class = "katsu">
+                    <h2>Katsu</h2>
+                        <p class = "desc">Japanese Cracker Breaded deep Fried with Katsu Sauce</p>
+                        <ul class = "itemList">
+                        <li>
+                            <u>Chicken</u>
+                            <p>$6.25</p>
+                        </li>
+                        <li>
+                            <u>Pork</u>
+                            <p>$6.25</p>
+                        </li>
+                        <li>
+                            <u>Salmon</u>
+                            <p>$6.95</p>
+                        </li>
+                        <li>
+                            <u>Beef</u>
+                            <p>$7.25</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class = "curry">
+                    <h2>Curry</h2>
+                    <p class = "desc">Broiled and with Curry Sauce</p>
+                    <ul class = "itemList">
+                        <li>
+                            <u>Chicken</u>
+                            <p>$6.25</p>
+                        </li>
+                        <li>
+                            <u>Shrimp</u>
+                            <p>$6.95</p>
+                        </li>
+                        <li>
+                            <u>Salmon</u>
+                            <p>$6.95</p>
+                        </li>
+                        <li>
+                            <u>Beef</u>
+                            <p>$6.95</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class = "lunch_hibachi">
+                <h1>Lunch Hibachi</h1>
+                <p class = "desc">Included with Soup or Salad, Steam Rice or Fried Rice and Noodles</p>
+                <ul>
+                    <li>
+                        <u>Chicken</u>
+                        <p>$6.95</p>
+                    </li>
+                    <li>
+                        <u>Shrimp</u>
+                        <p>$7.25</p>
+                    </li>
+                    <li>
+                        <u>Steak</u>
+                        <p>$7.25</p>
+                    </li>
+                    <li>
+                        <u>Salmon</u>
+                        <p>$7.25</p>
+                    </li>
+                    <li>
+                        <u>Scallops</u>
+                        <p>$7.25</p>
+                    </li>
+                    <li>
+                        <u>Vegetable</u>
+                        <p>$6.95</p>
+                    </li>
+                    <li>
+                        <u>Combination of two items</u>
+                        <p>$8.50</p>
+                    </li>
+                </ul>
+            </div>
+            <div class = "lunch_rolls">
+                <h1>Lunch Special Rolls</h1>
+                <p class = "desc">(Choice of any 2 rolls, miso soup, or house salad</p>
+                <p class = "desc">$8.00</p>
+                <ul>
+                    <li><u>Asparagus Roll</u></li>
+                    <li><u>Avocado Roll</u></li>
+                    <li><u>Grill Tuna Roll</u></li>
+                    <li><u>California Roll</u></li>
+                    <li><u>Cucumber Roll</u></li>
+                    <li><u>Crab Stick Roll</u></li>
+                    <li><u>Dynamite Roll</u></li>
+                    <li><u>Crunch Crab Roll</u></li>
+                    <li><u>Hot Chicken Roll</u></li>
+                    <li><u>Tuna Roll</u></li>
+                    <li><u>Snow Crab Roll</u></li>
+                    <li><u>Philadelphia Roll</u></li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+</div>
+<!-- Creates the space between the footer and the body-->
+<div class="spacer"></div>
+
+<!-- This is the creation of the footer with all the links-->
+<div class="footer-container">
+
+    <div class="flex-footer">
+        <div class="footer-logo">
+            <img src="assets/logo.svg" alt="logo">
+        </div>
+
+        <div class="footer-contact">
+            <div>
+                <h2>Contact Us</h2>
+                <h4>Address:</h4>
+
+                <a href='https://www.google.com/maps/place/Wasabi+Japanese+Sushi+%26+Grill/@30.1818209,-93.2247643,14.49z/data=!4m5!3m4!1s0x0:0x4ad24a5f948251b2!8m2!3d30.187459!4d-93.2182302'
+                   target='_blank'> <div class="text">3905 Ryan St, Lake Charles, LA 70605</div> </a>
+                <h4>Phone:</h4>
+
+                <a href='tel:+1-337-477-1755'>
+                    <div className='text'>(337) 477-1755</div>
+                </a>
+                <h4>Socials:</h4>
+                <a href='https://www.facebook.com/Wasabi-Japanese-Sushi-Grill-189573701210648/'
+                   target='_blank' >
+                    <div className='icon' ></div>
+                </a>
+            </div>
+        </div>
+        
+        <!--All of the footer links to the other pages-->
+        <div class="footer-links">
+            <h2>Links</h2>
+            <button class="btn">
+                <a href="index.html">Home</a>
+            </button>
+
+            <button class="btn">
+                <a href="SaladMenu.html">Menu</a>
+            </button>
+
+            <button class="btn">
+                <a href="Location.html">Location</a>
+            </button>
+
+            <button class="btn">
+                <a href="AboutUs.html">About Us</a>
+            </button>
+        </div>
+    </div>
+
+</div>
+
+
+        
+    </body>
+</html>

@@ -1,5 +1,11 @@
+<!--
+    CSCI 426 Project
+    Author: Chris Breaux
+    Date: 11/6/2022
+-->
 <!DOCTYPE html>
 <html>
+    <!--NavBar with links-->
     <head>
         <link rel="stylesheet" href="style/Navbar.css" />
         <link rel="stylesheet" href="style/Footer.css" />
@@ -20,12 +26,12 @@
                 <div class="dropdown">
                     <button class="dropbtn">MENU</button>
                     <div class="hidden-items">
-                        <a href="Menu.html">Soups/Salads</a>
-                        <a href="Menu.html">Appetizers</a>
-                        <a href="Menu.html">Entrees</a>
-                        <a href="Menu.html">Beverages</a>
-                        <a href="Menu.html">Sushi</a>
-                        <a href="Menu.html">Sashimi</a>
+                        <a href="SaladMenu.html">Soups/Salads</a>
+                        <a href="Appetizers.html">Appetizers</a>
+                        <a href="Entree.html">Entrees</a>
+                        <a href="Beverages.html">Beverages</a>
+                        <a href="Sushi.html">Sushi</a>
+                        <a href="Sashimi.html">Sashimi</a>
                     </div>
                 </div>
                 <a href="Location.html">Location</a>
@@ -40,7 +46,7 @@
 
         <div class="spacer"></div>
 
-
+        <!--Container for the text-->
         <div class = background>
             <div class = "info">
                 <div class = "imgContainer">
@@ -48,12 +54,14 @@
                         <img src = "assets/sushi3.jpg">
                     </div>
                 </div>
-                
+                <!--Reservation text-->
                 <div class = "wordDiv">
                     <h1>Planning ahead? Make a reservation with us!</h1>
                     <p>Fill out the form below to place a reservation with us. Anything marked an asterisk (*) is required.</p>
                     <p>Want to make a reservation over the phone? Call us at (337) 477-1755.</p>
+                    <!--Form for making reservations-->
                     <form action="http://www.example.com/Wasabi/Reservations" method="post">
+                        <!--Form fieldset-->
                         <fieldset id="PersonalInfo">
                             <legend>Group Info</legend>
                             <div class="input-container">
@@ -83,7 +91,7 @@
                                 <p>have a larger party? Call us at (337) 477-1755.</p>
                             </div>
                         </fieldset>
-            
+                        <!--Another form fieldset-->
                         <fieldset id="ReservationInfo">
                            <legend>Date and Time</legend>
                            <label for="resDate">*Reservaton Date:</label>
@@ -104,7 +112,7 @@
 
 
         <div class="spacer"></div>
-
+        <!--Footer with links-->
         <div class="footer-container">
 
             <div class="flex-footer">
@@ -149,15 +157,15 @@
                     <button class="btn">
                         <a href="index.html">Home</a>
                     </button>
-
+        
                     <button class="btn">
-                        <a href="Menu.html">Menu</a>
+                        <a href="SaladMenu.html">Menu</a>
                     </button>
-
+        
                     <button class="btn">
                         <a href="Location.html">Location</a>
                     </button>
-
+        
                     <button class="btn">
                         <a href="AboutUs.html">About Us</a>
                     </button>

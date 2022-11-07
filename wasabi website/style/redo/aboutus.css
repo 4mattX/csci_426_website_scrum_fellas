@@ -1,7 +1,17 @@
+/*
+    CSCI 426 Project
+    Author: Chris Breaux
+    Date: 11/6/2022
+*/
+
+/*HTML Styles*/
+
 html
 {
     background-image: url(bamboo-background.svg);
 }
+
+/* Body Styles */
 
 body {
     margin: 0 !important;
@@ -12,6 +22,8 @@ body {
 .spacer {
     padding: 50px;
 }
+
+/* Div Styles */
 
 div.imgContainer
 {
