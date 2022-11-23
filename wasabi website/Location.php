@@ -57,34 +57,46 @@
             <div class = hours>
                 <h1>Hours of Operation</h1>
                 <ul>
-                    <li>
-                        <h2><u>Sunday</u></h2>
-                        <p>12PM-2:15PM,<br> 5-9:15PM</p>
-                    </li>
-                    <li>
-                        <h2><u>Monday</u></h2>
-                        <p>11AM-2:15PM,<br> 5-9:15PM</p>
-                    </li>
-                    <li>
-                        <h2><u>Tuesday</u></h2>
-                        <p>11AM-2:15PM,<br> 5-9:15PM</p>
-                    </li>
-                    <li>
-                        <h2><u>Wednesday</u></h2>
-                        <p>11AM-2:15PM,<br> 5-9:15PM</p>
-                    </li>
-                    <li>
-                        <h2><u>Thursday</u></h2>
-                        <p>11AM-2:15PM,<br> 5-9:15PM</p>
-                    </li>
-                    <li>
-                        <h2><u>Friday</u></h2>
-                        <p>11AM-2:15PM,<br> 5-10:15PM</p>
-                    </li>
-                    <li>
-                        <h2><u>Saturday</u></h2>
-                        <p>11AM-2:15AM,<br> 5-10:15PM</p>
-                    </li>
+                    <?php
+                        $dbhost = "sql9.freesqldatabase.com";
+                        $dbuser = "sql9580202";
+                        $dbpass = "TYpymQBFpf";
+                        $db = "sql9580202";
+                        $conn = new mysqli($dbhost, $dbuser, $dbpass, $db);
+
+                        if(!$conn)
+                        {
+                            die("Connection failed!" . mysqli_connect_error());
+                        }
+                        else 
+                        {
+                            echo "";
+                        }
+
+                        $sql = "SELECT * FROM hours";
+                        $result = mysqli_query($conn, $sql);
+                        if(mysqli_num_rows($result) > 0)
+                        {
+                            echo '<div class="column"><table class="center" style="font-size: 20px;" height="15px"> <tr> 
+                            <th height="94px"> Days </th> 
+                            <th height="94px"> Hours </th> 
+                            </tr>';
+                            while($row = mysqli_fetch_assoc($result))
+                            {
+                                echo '<tr>
+                                <td style="text-align: center" height="94px">' . $row["WeekDay"] . '</td>
+                                <td style="text-align: center" height="94px"> ' . $row["OpenTime"] . '</td>
+                                </tr>';
+
+                            }
+                            echo '</table>';
+                        }
+                        else
+                        {
+                            echo "0 results";
+                        }
+                        mysqli_close($conn);
+                    ?>
                 </ul>
             </div>
         </div>
